@@ -4,7 +4,7 @@ A modular, agent-based pipeline system for automated CSV processing.
 
 ---
 
-# 🚀 System Overview
+#  System Overview
 
 This project follows a **7-step pipeline architecture**:
 
@@ -18,9 +18,9 @@ This project follows a **7-step pipeline architecture**:
 
 ---
 
-# 🧠 Agent Architecture
+#  Agent Architecture
 
-## 🔷 Core System
+##  Core System
 
 * **[Agent Identity](.agents.md)** → Rules, behavior, and pipeline overview
 * **[Planner Agent](agents/planner.md)** → Controls execution flow
@@ -28,7 +28,7 @@ This project follows a **7-step pipeline architecture**:
 
 ---
 
-## ⚙️ Worker Responsibilities
+##  Worker Responsibilities
 
 | Agent     | Role                |
 | --------- | ------------------- |
@@ -41,7 +41,7 @@ This project follows a **7-step pipeline architecture**:
 
 ---
 
-# 🧰 Skills System
+#  Skills System
 
 Reusable modules used across agents:
 
@@ -59,7 +59,7 @@ Reusable modules used across agents:
 
 ---
 
-# 📊 Data Layer
+#  Data Layer
 
 * **[Architecture](data/documentation/architecture.md)**
   → Full pipeline design
@@ -72,7 +72,7 @@ Reusable modules used across agents:
 
 ---
 
-# ⚡ Pipeline Execution
+#  Pipeline Execution
 
 ### Run system
 
@@ -88,7 +88,7 @@ python -m unittest discover tests
 
 ---
 
-# 🧪 Testing
+#  Testing
 
 * **[Test Pipeline](tests/test_pipeline.py)**
 * **[Scenarios](tests/scenarios/README.md)**
@@ -102,7 +102,7 @@ Includes:
 
 ---
 
-# 🧾 Configuration
+#  Configuration
 
 Environment file:
 
@@ -118,7 +118,7 @@ Controls:
 
 ---
 
-# 📁 Output
+#  Output
 
 Generated files stored in:
 
@@ -128,13 +128,13 @@ Generated files stored in:
 
 ---
 
-# 🔁 Full Flow (Simplified)
+#  Full Flow (Simplified)
 
 Planner → Workers → Skills → Output → Summary
 
 ---
 
-# 📌 Notes
+#  Notes
 
 * Each module is independently testable
 * System is fault-tolerant
@@ -142,7 +142,7 @@ Planner → Workers → Skills → Output → Summary
 
 ---
 
-# 📄 Deep Dive (All Docs)
+#  Deep Dive (All Docs)
 
 | Section      | Link                                                  |
 | ------------ | ----------------------------------------------------- |
@@ -154,6 +154,6 @@ Planner → Workers → Skills → Output → Summary
 
 ---
 
-# 🏁 Conclusion
+# 🏁Conclusion
 
 This project demonstrates a **clean agent-based architecture** with modular design, reusable components, and structured execution.
