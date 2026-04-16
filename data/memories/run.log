@@ -1,0 +1,184 @@
+[02:02:06] [INFO] =======================================================
+[02:02:06] [INFO]   CSV FILE MANAGEMENT AGENT — PIPELINE START
+[02:02:06] [INFO] =======================================================
+[02:02:06] [INFO] STEP 1 ▶ Generating list X and sublists
+[02:02:06] [INFO]   List X: 100 items | 10 sublists of ~10
+[02:02:06] [INFO] STEP 2 ▶ Creating Output folder, master.csv, and sublist CSVs
+[02:02:06] [INFO]   Created: Output/master.csv
+[02:02:06] [INFO]   Created: Output/csv_1.csv
+[02:02:06] [INFO]   Created: Output/csv_2.csv
+[02:02:06] [INFO]   Created: Output/csv_3.csv
+[02:02:06] [INFO]   Created: Output/csv_4.csv
+[02:02:06] [INFO]   Created: Output/csv_5.csv
+[02:02:06] [INFO]   Created: Output/csv_6.csv
+[02:02:06] [INFO]   Created: Output/csv_7.csv
+[02:02:06] [INFO]   Created: Output/csv_8.csv
+[02:02:06] [INFO]   Created: Output/csv_9.csv
+[02:02:06] [INFO]   Created: Output/csv_10.csv
+[02:02:06] [INFO] STEP 3 ▶ Creating folders and distributing CSV files
+[02:02:06] [INFO]   Copied csv_1.csv → folder_1/
+[02:02:06] [INFO]   Copied csv_2.csv → folder_1/
+[02:02:06] [INFO]   Copied csv_3.csv → folder_1/
+[02:02:06] [INFO]   Copied csv_2.csv → folder_2/
+[02:02:06] [INFO]   Copied csv_3.csv → folder_2/
+[02:02:06] [INFO]   Copied csv_4.csv → folder_2/
+[02:02:06] [INFO]   Copied csv_3.csv → folder_3/
+[02:02:06] [INFO]   Copied csv_4.csv → folder_3/
+[02:02:06] [INFO]   Copied csv_5.csv → folder_3/
+[02:02:06] [INFO]   Copied csv_4.csv → folder_4/
+[02:02:06] [INFO]   Copied csv_5.csv → folder_4/
+[02:02:06] [INFO]   Copied csv_6.csv → folder_4/
+[02:02:06] [INFO]   Copied csv_5.csv → folder_5/
+[02:02:06] [INFO]   Copied csv_6.csv → folder_5/
+[02:02:06] [INFO]   Copied csv_7.csv → folder_5/
+[02:02:06] [INFO]   Copied csv_6.csv → folder_6/
+[02:02:06] [INFO]   Copied csv_7.csv → folder_6/
+[02:02:06] [INFO]   Copied csv_8.csv → folder_6/
+[02:02:06] [INFO]   Copied csv_7.csv → folder_7/
+[02:02:06] [INFO]   Copied csv_8.csv → folder_7/
+[02:02:06] [INFO]   Copied csv_9.csv → folder_7/
+[02:02:06] [INFO]   Copied csv_8.csv → folder_8/
+[02:02:06] [INFO]   Copied csv_9.csv → folder_8/
+[02:02:06] [INFO]   Copied csv_10.csv → folder_8/
+[02:02:06] [INFO]   Copied csv_9.csv → folder_9/
+[02:02:06] [INFO]   Copied csv_10.csv → folder_9/
+[02:02:06] [INFO]   Copied csv_1.csv → folder_9/
+[02:02:06] [INFO]   Copied csv_10.csv → folder_10/
+[02:02:06] [INFO]   Copied csv_1.csv → folder_10/
+[02:02:06] [INFO]   Copied csv_2.csv → folder_10/
+[02:02:06] [INFO] STEP 4 ▶ Removing root-level csv_N.csv files
+[02:02:06] [INFO]   Deleted: Output/csv_1.csv
+[02:02:06] [INFO]   Deleted: Output/csv_2.csv
+[02:02:06] [INFO]   Deleted: Output/csv_3.csv
+[02:02:06] [INFO]   Deleted: Output/csv_4.csv
+[02:02:06] [INFO]   Deleted: Output/csv_5.csv
+[02:02:06] [INFO]   Deleted: Output/csv_6.csv
+[02:02:06] [INFO]   Deleted: Output/csv_7.csv
+[02:02:06] [INFO]   Deleted: Output/csv_8.csv
+[02:02:06] [INFO]   Deleted: Output/csv_9.csv
+[02:02:06] [INFO]   Deleted: Output/csv_10.csv
+[02:02:06] [INFO] STEP 5 ▶ Reading CSV files and computing squares
+[02:02:06] [INFO]   Processed: csv_1.csv (10 entries so far)
+[02:02:06] [INFO]   Processed: csv_2.csv (20 entries so far)
+[02:02:06] [INFO]   Processed: csv_3.csv (30 entries so far)
+[02:02:06] [INFO]   Processed: csv_4.csv (40 entries so far)
+[02:02:06] [INFO]   Processed: csv_5.csv (50 entries so far)
+[02:02:06] [INFO]   Processed: csv_6.csv (60 entries so far)
+[02:02:06] [INFO]   Processed: csv_7.csv (70 entries so far)
+[02:02:06] [INFO]   Processed: csv_8.csv (80 entries so far)
+[02:02:06] [INFO]   Processed: csv_9.csv (90 entries so far)
+[02:02:06] [INFO]   Processed: csv_10.csv (100 entries so far)
+[02:02:06] [WARNING]   SKIP: csv_11.csv not found in any folder
+[02:02:06] [INFO] STEP 6 ▶ Updating master.csv with computed squares
+[02:02:06] [INFO]   Updated 100/100 rows in master.csv
+[02:02:06] [INFO] STEP 7 ▶ Verifying master.csv integrity
+[02:02:06] [INFO]   Rows: 100 | Filled: 100 | Empty: 0 | ✅ PASS
+[02:02:06] [INFO] =======================================================
+[02:02:06] [INFO]   DONE — Status: SUCCESS | 7 steps | 0.03s
+[02:02:06] [INFO] =======================================================
+[02:02:51] [INFO] STEP 1 ▶ Generating list X and sublists
+[02:02:51] [INFO]   List X: 100 items | 10 sublists of ~10
+[02:02:51] [INFO] STEP 1 ▶ Generating list X and sublists
+[02:02:51] [INFO]   List X: 100 items | 10 sublists of ~10
+[02:02:51] [INFO] STEP 1 ▶ Generating list X and sublists
+[02:02:51] [INFO]   List X: 100 items | 10 sublists of ~10
+[02:02:51] [INFO] STEP 1 ▶ Generating list X and sublists
+[02:02:51] [INFO]   List X: 100 items | 10 sublists of ~10
+[02:02:51] [INFO] STEP 2 ▶ Creating Output folder, master.csv, and sublist CSVs
+[02:02:51] [INFO]   Created: test_output_temp/master.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_1.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_2.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_3.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_4.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_5.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_6.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_7.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_8.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_9.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_10.csv
+[02:02:51] [INFO] STEP 1 ▶ Generating list X and sublists
+[02:02:51] [INFO]   List X: 100 items | 10 sublists of ~10
+[02:02:51] [INFO] STEP 2 ▶ Creating Output folder, master.csv, and sublist CSVs
+[02:02:51] [INFO]   Created: test_output_temp/master.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_1.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_2.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_3.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_4.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_5.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_6.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_7.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_8.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_9.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_10.csv
+[02:02:51] [INFO] STEP 1 ▶ Generating list X and sublists
+[02:02:51] [INFO]   List X: 100 items | 10 sublists of ~10
+[02:02:51] [INFO] STEP 2 ▶ Creating Output folder, master.csv, and sublist CSVs
+[02:02:51] [INFO]   Created: test_output_temp/master.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_1.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_2.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_3.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_4.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_5.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_6.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_7.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_8.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_9.csv
+[02:02:51] [INFO]   Created: test_output_temp/csv_10.csv
+[02:02:51] [INFO] STEP 3 ▶ Creating folders and distributing CSV files
+[02:02:51] [INFO]   Copied csv_1.csv → folder_1/
+[02:02:51] [INFO]   Copied csv_2.csv → folder_1/
+[02:02:51] [INFO]   Copied csv_3.csv → folder_1/
+[02:02:51] [INFO]   Copied csv_2.csv → folder_2/
+[02:02:51] [INFO]   Copied csv_3.csv → folder_2/
+[02:02:51] [INFO]   Copied csv_4.csv → folder_2/
+[02:02:51] [INFO]   Copied csv_3.csv → folder_3/
+[02:02:51] [INFO]   Copied csv_4.csv → folder_3/
+[02:02:51] [INFO]   Copied csv_5.csv → folder_3/
+[02:02:51] [INFO]   Copied csv_4.csv → folder_4/
+[02:02:51] [INFO]   Copied csv_5.csv → folder_4/
+[02:02:51] [INFO]   Copied csv_6.csv → folder_4/
+[02:02:51] [INFO]   Copied csv_5.csv → folder_5/
+[02:02:51] [INFO]   Copied csv_6.csv → folder_5/
+[02:02:51] [INFO]   Copied csv_7.csv → folder_5/
+[02:02:51] [INFO]   Copied csv_6.csv → folder_6/
+[02:02:51] [INFO]   Copied csv_7.csv → folder_6/
+[02:02:51] [INFO]   Copied csv_8.csv → folder_6/
+[02:02:51] [INFO]   Copied csv_7.csv → folder_7/
+[02:02:51] [INFO]   Copied csv_8.csv → folder_7/
+[02:02:51] [INFO]   Copied csv_9.csv → folder_7/
+[02:02:51] [INFO]   Copied csv_8.csv → folder_8/
+[02:02:51] [INFO]   Copied csv_9.csv → folder_8/
+[02:02:51] [INFO]   Copied csv_10.csv → folder_8/
+[02:02:51] [INFO]   Copied csv_9.csv → folder_9/
+[02:02:51] [INFO]   Copied csv_10.csv → folder_9/
+[02:02:51] [INFO]   Copied csv_1.csv → folder_9/
+[02:02:51] [INFO]   Copied csv_10.csv → folder_10/
+[02:02:51] [INFO]   Copied csv_1.csv → folder_10/
+[02:02:51] [INFO]   Copied csv_2.csv → folder_10/
+[02:02:51] [INFO] STEP 4 ▶ Removing root-level csv_N.csv files
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_1.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_2.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_3.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_4.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_5.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_6.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_7.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_8.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_9.csv
+[02:02:51] [INFO]   Deleted: test_output_temp/csv_10.csv
+[02:02:51] [INFO] STEP 5 ▶ Reading CSV files and computing squares
+[02:02:51] [INFO]   Processed: csv_1.csv (10 entries so far)
+[02:02:51] [INFO]   Processed: csv_2.csv (20 entries so far)
+[02:02:51] [INFO]   Processed: csv_3.csv (30 entries so far)
+[02:02:51] [INFO]   Processed: csv_4.csv (40 entries so far)
+[02:02:51] [INFO]   Processed: csv_5.csv (50 entries so far)
+[02:02:51] [INFO]   Processed: csv_6.csv (60 entries so far)
+[02:02:51] [INFO]   Processed: csv_7.csv (70 entries so far)
+[02:02:51] [INFO]   Processed: csv_8.csv (80 entries so far)
+[02:02:51] [INFO]   Processed: csv_9.csv (90 entries so far)
+[02:02:51] [INFO]   Processed: csv_10.csv (100 entries so far)
+[02:02:51] [WARNING]   SKIP: csv_11.csv not found in any folder
+[02:02:51] [INFO] STEP 6 ▶ Updating master.csv with computed squares
+[02:02:51] [INFO]   Updated 100/100 rows in master.csv
+[02:02:51] [INFO] STEP 7 ▶ Verifying master.csv integrity
+[02:02:51] [INFO]   Rows: 100 | Filled: 100 | Empty: 0 | ✅ PASS
